@@ -42,3 +42,4 @@ with open('./apprentissage/datas/pokedex.csv', newline='') as csvfile:
     pokedex = csv.reader(csvfile)
     next(pokedex)
     prediction(368,598,pokedex)
+    
